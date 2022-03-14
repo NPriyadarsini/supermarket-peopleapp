@@ -4,4 +4,27 @@
 	button {
 		font-weight: bold;
 	}
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		background-color: #727564;
+		padding: 10px;
+	}
+	.grid-item-blue {
+		background-color: rgba(45, 160, 226, 0.8);
+		border: 1px solid rgba(0, 0, 0, 0.8);
+		padding: 10px;
+		font-size: 15px;
+		text-align: center;
+	}
+	.grid-item-pink {
+		background-color: rgba(235, 89, 227, 0.8);
+		border: 1px solid rgba(0, 0, 0, 0.8);
+		padding: 10px;
+		font-size: 15px;
+		text-align: center;
+	}
+	.text-box {
+		padding: 10px;
+	}
 }
