@@ -1,20 +1,20 @@
 
 import { React } from 'react';
 import './App.scss';
-import NameTextBox from './components/nameTextBox';
-import PhoneNoTextBox from './components/phoneNoTextBox';
-import GenderCheckBox from './components/genderCheckBox';
+import NameInput from './components/nameInput';
+import PhoneNoInput from './components/phoneNoInput';
+import GenderInput from './components/genderInput';
 import SaveButton from './components/saveButton';
-import GetCustomerDetail from './components/getCustomerDetail';
+import CustomerList from './components/customerList';
 
 const App = (context) => <div className="App" role="App">
 	<h1>Super Market - Add Customer Details</h1>
-	<div className="text-box">{ NameTextBox(context)}</div>
-	<div className="text-box">{ PhoneNoTextBox(context)}</div>
-	<div className="text-box">{GenderCheckBox(context)}</div>
+	<div className="text-box">{NameInput(context)}</div>
+	<div className="text-box">{PhoneNoInput(context)}</div>
+	<div className="text-box">{GenderInput(context)}</div>
 	<div className="text-box">{SaveButton(context)}</div>
 	<div className="grid-container" id="grid-container">
-		{ GetCustomerDetail(context)}
+		{ CustomerList(context)}
 	</div>
 </div>;
 

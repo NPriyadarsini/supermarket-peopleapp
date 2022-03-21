@@ -1,7 +1,7 @@
 import { React } from 'react';
 import context from '../core/context';
 
-const GenderCheckBox = () =>
+const GenderInput = () =>
 	<label htmlFor="gender">Gender:{}
 		<select
 			name="gender"
@@ -14,4 +14,4 @@ const GenderCheckBox = () =>
 		</select>
 	</label>;
 
-export default GenderCheckBox;
+export default GenderInput;
