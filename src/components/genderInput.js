@@ -1,7 +1,6 @@
 import { React } from 'react';
-import context from '../core/context';
 
-const GenderInput = () =>
+const GenderInput = (context) =>
 	<label htmlFor="gender">Gender:{}
 		<select
 			name="gender"

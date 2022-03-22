@@ -1,7 +1,6 @@
 import { React } from 'react';
-import context from '../core/context';
 
-const SaveButton = () =>
+const SaveButton = (context) =>
 	<button onClick={ () => context.actions.addCustomer() }>
 		Save
 	</button>;

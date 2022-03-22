@@ -1,6 +1,6 @@
 import { rndString } from '@laufire/utils/random';
 
-const customers = {
+const customerManager = {
 	addCustomer: (context) => {
 		const { config, state } = context;
 
@@ -16,4 +16,4 @@ const customers = {
 	},
 };
 
-export default customers;
+export default customerManager;
