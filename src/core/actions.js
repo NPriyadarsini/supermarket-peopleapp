@@ -1,4 +1,4 @@
-import customers from '../services/customers';
+import customerManager from '../services/customerManager';
 
 const setCustomerName = ({ data: name }) => ({
 	name,
@@ -10,7 +10,7 @@ const setCustomerGender = ({ data: gender }) => ({
 	gender,
 });
 const addCustomer = (context) => ({
-	customerDetails: customers.addCustomer(context),
+	customerDetails: customerManager.addCustomer(context),
 });
 
 const actions = {
